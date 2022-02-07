@@ -1,4 +1,7 @@
+/*jshint esversion: 6 */
+
 import express from 'express';
+import connectDatabase from './config/db';
 
 //Initializes express application. Object named app. 
 const app = express();
